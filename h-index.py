@@ -6,7 +6,6 @@ class Solution(object):
         """
         h = 0
         citations.sort(reverse=True)
-        i = 0
 
         for i in range(len(citations)):
             if citations[i] >= i + 1:
